@@ -1,0 +1,24 @@
+@import 'base/variables';
+@import 'libs/font';
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+@import 'blocks/titles';
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/buttons';
+@import 'blocks/advantages';
+@import 'blocks/work';
+@import 'blocks/title-line';
+@import 'blocks/subtitle';
+@import 'blocks/_agent';

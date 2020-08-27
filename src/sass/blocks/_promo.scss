@@ -1,0 +1,63 @@
+.promo {
+    width: 100%;
+    min-height: 640px;
+    background: url(../../img/bg-1.jpg) center (center/cover) no-repeat;
+    padding: 23px 0 82px 0;
+    text-align: center;
+    &__mini-title {
+        margin-top: 5px;
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 300;
+    }
+    &__title {
+        margin-top: 22px;
+        color: $main-color;
+        font-family: "Roboto Condensed";
+        font-size: 72px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    &__subtitle {
+        margin-top: 5px;
+        color: #ffffff;
+        font-family: "Roboto Condensed";
+        font-size: 42px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    &__separator {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 35px 0 25px 0;
+    }
+    &__line {
+        background-color: #fff;
+        width: 30%;
+        height: 2px;
+    }
+    &__circle {
+        background-color: #fff;
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        margin:0 10px;
+    }
+    &__advant {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        margin-bottom: 40px;
+    }
+    &__advant-item {
+        max-width: 265px;
+    }
+    &__advant-descr {
+        margin-top: 13px;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 22px;
+    }
+}
